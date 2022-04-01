@@ -10,5 +10,5 @@ jobs:
       - name: 'Lint'
         uses: karancode/yamllint-github-action@master
         with:
-          yamllint_file_or_dir: 'clusters'
+          yamllint_file_or_dir: '.'
           yamllint_strict: false
