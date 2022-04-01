@@ -9,4 +9,4 @@ matrix:
         - .wordlist.txt
       output: build/dictionary/readme.dic
     pipeline:
-    - pyspelling.filters.url:
+      - pyspelling.filters.url:
